@@ -72,7 +72,7 @@ while game_is_on:
             single_brick.hideturtle()
             brick_list.remove(single_brick)
             ball.bounce_walls_up()
-            score.point()
+            score.point() #can implement levels by specifying different brick lists and assigning different score to them.
 
 
     #Detecting when game is over
